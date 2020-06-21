@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  color:black;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form{
+ margin: 30px 20px;  
+
+}
+
+.form input,.get{
+  margin-left: 130px;
+}
+
+.foot-icon{
+  
+  position: relative;
+  float: right;
+  padding:5px;
+  margin-right:70px;
+
+ 
+}
+
+footer{
+  /* position: fixed; */
+  bottom: 0px;
+  width: 100%;
+  background: rgb(82, 78, 78);
+
+}
+
+.kasat-logo {
+    width: 300px;
+    height: 200px;
+}
+
+.main-content .water-mark {
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.main-content{
+  display: flex;
+}
+
+.main-content .box{
+  flex-basis: 30%;
+  padding: 10px 20px; 
+}
+
+
+.footer-nav li a {
+  color:black;
+}
+
+
+.footer-nav .nav-1 li a {
+  color:black;
+  font-size: 10px;
+  
+}
+.box .content{
+  margin: 30px 0 0 0;
+  position: relative;
+}
+
+.left .content {
+  margin: 20px 0 0 0;
+}
+
+.left .content  a{
+  padding: 0 2px;
+}
+
+.left .content  a{
+  height: 40px;
+  width: 40px;
+}
+
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content {
+  margin: 15px 0;
+}
+
+.b-footer{
+  background-color:black;
+  width: 100;
+  height: 20px;
+  margin-bottom: 0px;
+  color: white;
+}
+.b-footer h6{
+  color: white;
+}
+
+
+
+/* Header */
+
+.header{
+  height: 100vh;
+   background: url(images/home/banner_img.jpg);
+   /* background-position: center; */
+   background-size: cover;
+}
+
+.navbar img{
+  height: 130px;
+}
+
+.pic{
+ position: relative;
+ top: -15px;
+ right: 150px;
+}
+
+.subheader {
+   text-align: center;
+   font-style: italic;
+   background: rgba(0, 0, 0, 0.5);
+   height:160px;
+  margin-top: 419px;
+    
+  }
+
+.subheader h1,h5{
+  color:white;
+  font-weight: 100;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+ 
+}
+
+.subheader input{
+
+outline:none;
+border:1px solid white;
+background: transparent;
+color:white;
+padding:7px 40px;
+
+}
+
+.nav ul{
+ list-style-type: none;
+ float: left;
+}
+
+.nav ul li{
+
+  float: left;
+  padding: 15px;
+  color:white;
+}
+
+
+.fa{
+ color:white;
+ padding:6px;
+}
+
+/* section2  */
+
+.section2{
+  background: url(images/home/legacy_bg.jpg);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center; 
+  height: 100vh;
+  text-align: center;
+  color:black;
+background-size: cover;
+}
+.section2 h1,p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section2 .bold{
+  font-weight: 1000;
+font-size: 60px;
+}
+
+
+.center{
+  padding:200px;
+  align-content: center;
+}
+
+.section2 input{
+
+margin-top: 30px;
+outline:none;
+border:2px solid black;
+background: transparent;
+color:black;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+/* section3  */
+
+
+.page{
+  position: relative;
+}
+
+.page-content{
+  width: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 580px;
+  height:160px;
+ 
+}
+
+.page-content h1{  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:white;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.page-content input{
+  outline:none;
+border:1px solid white;
+background: transparent;
+color:white;
+padding:7px 30px;
+margin-left:180px;
+margin-top: 10px;
+
+}
+
+.page-content3{
+  position: absolute;
+  margin-top: 180px;
+}
+
+
+.page-content3 h1,p{
+  color:white;
+  text-align: center;
+  margin-left: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.page-content3 input{
+outline:none;
+border:1px solid white;
+background: transparent;
+color:white;
+padding:7px 30px;
+margin-left:205px;
+margin-top: 10px;
+
+}
+
+.page-content4{
+  position: absolute;
+
+}
+.page-content4 img{
+  position: absolute;
+  margin-top: -800px;
+  margin-left: 130px;
+  
+}
+
+.page-content4 p{
+  color:black;
+  text-align: center;
+  margin-left: 240px;
+  margin-top: -300px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page-content4 input{
+  outline:none;
+  border:1px solid black;
+  background: transparent;
+  color:black;
+  padding:7px 30px;
+  margin-left:340px;
+  margin-top: 10px;
+  }
+
+
+.section3{
+  height: 100vh;
+}
+
+.section3 img{
+  display: block;
+  width: 100%;
+  height:100%;
+  float: left;
+}
+
+
+
+
+/* section4  */
+
+.section4 img{
+  display: block;
+  /* padding: 8px; */
+  height:100vh;
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+} */
